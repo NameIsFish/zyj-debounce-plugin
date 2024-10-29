@@ -1,0 +1,34 @@
+{
+  "name": "zyj-debounce-plugin",
+  "version": "1.0.0",
+  "description": "npm发布测试之防抖",
+  "main": "dist/zyj-debounce-plugin.js",
+  "module": "dist/zyj-debounce-plugin.js",
+  "exports": {
+    ".": {
+      "import": "./dist/zyj-debounce-plugin.js",
+      "require": "./dist/zyj-debounce-plugin.js"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "vite build"
+  },
+  "author": "fish",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NameIsFish/zyj-debounce-plugin.git"
+  },
+  "keywords": [
+    "vue",
+    "plugin",
+    "vue3",
+    "debounce",
+    "vite"
+  ],
+  "dependencies": {
+    "vite": "^5.4.10",
+    "vue": "^3.5.12"
+  }
+}
